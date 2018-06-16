@@ -1,0 +1,5 @@
+MYSQL QUICK REF
+
+#dump schema : use -d option to disregard data
+
+mysqldump -d -u root -p db > db_schema.sql
